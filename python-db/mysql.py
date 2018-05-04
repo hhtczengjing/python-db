@@ -49,7 +49,6 @@ class MySQL():
 				print uid, uname
     """
 	def executeQuery(self, sql):
-		def executeQuery(self, sql):
 		cur1 = self.__getConnect()
 		aa = cur1.execute(sql)
 		resList = cur1.fetchmany(aa)
